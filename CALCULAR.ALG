@@ -1,7 +1,7 @@
 Algoritmo "calcular"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/05/2022
 Var
@@ -9,7 +9,7 @@ x, y: real
 operador:inteiro
 soma, sub, mult, divi: real
 Inicio
-escreval("escolha a operação:")
+escreval("escolha a operaï¿½ï¿½o:")
 escreval("digite 1: +")
 escreval("digite 2: -")
 escreval("digite 3: /")
@@ -22,14 +22,19 @@ caso (1)
 
 
 caso (2)
-//fazer subtração aqui(-)
+//fazer subtraï¿½ï¿½o aqui(-)
 
 caso (4)
-// fazer multilpicação aqui (x)
+// fazer multilpicaï¿½ï¿½o aqui (x)
 
 caso (3)
-//fazer divisão aqui(/)
-
+//fazer divisï¿½o aqui(/)
+escreval ("Escreva o nÃºmero Ã  ser dividido")
+leia (x)
+escreval ("Escreval o nÃºmero divisor")
+leia(y)
+divi <- x / y
+escreval ("o valor Ã©:", divi)
 fimescolha
 
 Fimalgoritmo
