@@ -38,6 +38,13 @@ escreval ("o valor é:", sub)
 
 caso (4)
 // fazer multilpica��o aqui (x)
+escreval ("Escreva o número à ser Multiplicado")
+leia (x)
+escreval ("Escreval o número Multiplicador")
+leia(y)
+mult <- x*y
+escreval ("o valor é:", mult)
+
 
 caso (3)
 //fazer divis�o aqui(/)
