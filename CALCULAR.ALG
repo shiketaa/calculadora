@@ -19,12 +19,11 @@ escolha (operador)
 
 caso (1)
 //fazer soma aqui(+)
-soma := x + y
 escreval ("Escreva o número a somar")
 leia (x)
 escreval ("Escreva o número a somar")
 leia(y)
-divi <- x / y
+soma := x + y
 escreval ("o valor é:", soma)
 
 caso (2)
