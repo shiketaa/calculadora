@@ -23,6 +23,12 @@ caso (1)
 
 caso (2)
 //fazer subtra��o aqui(-)
+escreval ("Escreval o número a ser subtraido")
+leia (x)
+escreval ("Escreval o número a subtrair")
+leia(y)
+sub := x - y
+escreval ("o valor é:", sub)
 
 caso (4)
 // fazer multilpica��o aqui (x)
