@@ -30,7 +30,7 @@ escreval ("Escreva o número à ser Multiplicado")
 leia (x)
 escreval ("Escreval o número Multiplicador")
 leia(y)
-divi <- x / y
+mult <- x*y
 escreval ("o valor é:", mult)
 
 
