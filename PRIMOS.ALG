@@ -1,26 +1,30 @@
-Algoritmo "PRIMOS"
-Var
-   cont, num, qdiv : inteiro
-   ehprimo : logico
-   c : caractere
+algoritmo "número primo"
+
+var
+   vet: vetor[0..9] de inteiro
+   c, i , n, p, o: inteiro
+
 Inicio
-   enquanto (c <> "nao") faca
-      escreval ("Digite um número inteiro  :")
-      leia (num)
-      ehprimo <- verdadeiro
-      cont <- num
-      enquanto (cont > 1) faca
-         se (((num mod cont) = 0) e (num <> cont)) entao
-            ehprimo <- falso
+   vet[0] <- 3
+   vet[1] <- 4
+   vet[2] <- 7
+   vet[3] <- 11
+   vet[4] <- 14
+   vet[5] <- 99
+   vet[6] <- 10
+   vet[7] <- 21
+   vet[8] <- 19
+   vet[9] <- 57
+
+   para c de 0 ate 9 faca
+      p<-0
+      para i de 1 ate vet[c] faca
+         se (vet[c] mod i=0) entao
+            p<-p+1
          fimse
-         cont <- cont - 1
-      fimenquanto
-      se (ehprimo) entao
-         escreval ("O Número",num, " é primo ")
-      senao
-         escreval ("O Número",num, " não é primo ")
+      fimpara
+      se (p=2)entao
+         escreval("são Primos:", vet[c])
       fimse
-      escreval ("Deseja continuar ?")
-         leia (c)
-   fimenquanto
+   fimpara
 Fimalgoritmo
