@@ -25,11 +25,4 @@ Inicio
             escreval ("O número", v[i], " é ímpar")
          fimse
       fimpara
-// Seção de Declarações das variáveis
-num : inteiro
-
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-//criar as variaveis necessarias para o calculo
-
 Fimalgoritmo
