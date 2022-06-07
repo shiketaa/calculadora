@@ -10,6 +10,6 @@ num : inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-
+//criar as variaveis necessarias para o calculo
 
 Fimalgoritmo
