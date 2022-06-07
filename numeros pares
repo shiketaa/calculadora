@@ -1,3 +1,4 @@
+
 Algoritmo "par"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Edson Shinki Kaneshima
@@ -26,4 +27,18 @@ v[9] <- 57
          escreval("O numero",v[i]," é par")
       fimse
    fimpara
+Algoritmo "numeros primos"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/06/2022
+Var
+// Seção de Declarações das variáveis
+num : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+
 Fimalgoritmo
