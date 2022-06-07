@@ -1,6 +1,6 @@
 Algoritmo "numeros primos"
-// 
-//  
+//
+//
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 04/06/2022
@@ -25,5 +25,11 @@ Inicio
             escreval ("O número", v[i], " é ímpar")
          fimse
       fimpara
+// Seção de Declarações das variáveis
+num : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+//criar as variaveis necessarias para o calculo
 
 Fimalgoritmo
