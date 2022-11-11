@@ -1,14 +1,15 @@
 Algoritmo "PRIMOS"
 Var
-   cont, num, qdiv : inteiro
+   cont, num, qdiv, i : inteiro
    ehprimo : logico
-   c : caractere
+   numero: vetor [0..10] de inteiro
 Inicio
-   enquanto (c <> "nao") faca
+
+      para i de 1 ate 10 faca
       escreval ("Digite um número inteiro  :")
-      leia (num)
+      leia (numero[i])
       ehprimo <- verdadeiro
-      cont <- num
+      cont <- numero[i]
       enquanto (cont > 1) faca
          se (((num mod cont) = 0) e (num <> cont)) entao
             ehprimo <- falso
@@ -16,11 +17,9 @@ Inicio
          cont <- cont - 1
       fimenquanto
       se (ehprimo) entao
-         escreval ("O Número",num, " é primo ")
+         escreval ("O Número",numero[i], " é primo ")
       senao
-         escreval ("O Número",num, " não é primo ")
+         escreval ("O Número",numero[i], " não é primo ")
       fimse
-      escreval ("Deseja continuar ?")
-         leia (c)
-   fimenquanto
+      fimpara
 Fimalgoritmo
